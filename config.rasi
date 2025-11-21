@@ -1,0 +1,64 @@
+configuration {
+    dmenu {
+        separator-style: "none";
+    }
+}
+
+* {
+    foreground: #FFFFFF;
+    background: #000000;
+    font: "Fira Code Nerd Font 9";
+}
+
+window {
+    location: southwest;
+    anchor: southwest;
+    padding: 0px;
+    width: 100%;
+    height: 1em;
+    border: 0px;
+    border-radius: 0px;
+    background-color: @background;
+}
+
+mainbox {
+    children: [ "inputbar", "message" ];
+    orientation: horizontal;
+    spacing: 1em;
+    padding: 0px;
+}
+
+inputbar {
+    spacing: 0px;
+    children: [ "prompt", "entry" ];
+    expand: true;
+    background-color: @background;
+}
+
+prompt {
+    enabled: false;
+    padding: 0px;
+}
+
+entry {
+    background-color: @background;
+    text-color: @foreground;
+    padding: 0 0 0 5px;
+    placeholder: "ᓚᘏᗢ";
+}
+
+listview {
+    enabled: false;
+}
+
+element {
+    padding: 10px;
+}
+
+message {
+    background-color: @background;
+    text-color: @foreground;
+    horizontal-align: 1.0;
+    vertical-align: 0.5;
+    enabled: true;
+}
