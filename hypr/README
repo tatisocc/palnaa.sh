@@ -4,3 +4,11 @@ Una vez se haya conectado a Wifi desde "GNOME" se puede desconectar el Ethernet.
 Después, cerrar sesión e iniciarla con "Hyprland".
 
 
+ETAPA I. Configuración inicial.
+
+1. Viajar al directorio ".config" y luego a la carpeta de "hypr"
+
+  - cd .config
+  - cd hypr
+
+2. abrir configuración.
