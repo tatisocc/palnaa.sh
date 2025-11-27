@@ -6,9 +6,17 @@ Después, cerrar sesión e iniciarla con "Hyprland".
 
 ETAPA I. Configuración inicial.
 
+Al iniciar Hyprland una notificación amarilla tendrá una nota de "Warning". Esto se debe por la configuración autogenerada.
+
+- PRESIONAR WIN + Q para abir kitty.
+
 1. Viajar al directorio ".config" y luego a la carpeta de "hypr"
 
   - cd .config
   - cd hypr
 
 2. abrir configuración.
+
+  - nano hyprland.conf
+
+Dentro verás el documento de configuración.
