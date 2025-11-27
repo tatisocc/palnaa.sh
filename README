@@ -1,6 +1,8 @@
 I N S T A L A C I Ó N  A R C H  L I N U X .
 
 Basado en: https://www.youtube.com/watch?v=FxeriGuJKTM&t=1348s
+Actualizado para 2025.
+
 Para más información: https://wiki.archlinux.org/title/Main_page
 	
 - Para mi compa el pulpo aka el naash.
@@ -112,7 +114,7 @@ ETAPA III. Intalación.
 1- ENTER en "Insstall".
 2- ENTER en "Yes".
 3- Esperar a que se termine la instalación.
+4- ENTER en "Reboot system".
+5- Esperar reboot.
 
-4- ENTER en "Yes".
-	
 4- Remover USB.
