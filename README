@@ -4,8 +4,9 @@
 						|  |_> > __ \|  |_|   |  \/ __ \_/ __ \_     \___ \|   Y  \
 						|   __(____  /____/___|  (____  (____  / /\ /____  >___|  /
 						|__|       \/          \/     \/     \/  \/      \/     \/ 
-											
+						
 							     I N S T A L A C I Ó N  A R C H  L I N U X .		
+									════════════════════════════════════
 
 Basado en: https://www.youtube.com/watch?v=FxeriGuJKTM&t=1348s
 Actualizado para 2025.
@@ -13,6 +14,9 @@ Actualizado para 2025.
 Para más información: https://wiki.archlinux.org/title/Main_page
 	
 - Para mi compa el pulpo aka el naash.
+
+									════════════════════════════════════
+
 
 NOTAS: En esta instalación NO se habla de particiones como tal. Con esta configuración se elimina completamente la información en el disco personal. Recomiendo limpiarlo y asegurar lo escencial antes de iniciar.
 
@@ -126,6 +130,7 @@ ETAPA III. Intalación.
 4- Remover USB.
 
 								A N T E S  D E  I N I C I A R  S E S I Ó N .
+									════════════════════════════════════
 
 Selecionar en esquina superior izquierda el entorno que se desee iniciar.
 
@@ -133,5 +138,6 @@ GNOME: Entorno gráfico "común".
 Hyprland: Entorno configurable.
 
 								C O F I G U R A C I Ó N   H Y P R L A N D .	
+									════════════════════════════════════
 
 Leer archivo README dentro de la carperta "hypr".
