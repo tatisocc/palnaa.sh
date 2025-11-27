@@ -8,7 +8,7 @@
 						
 							     I N S T A L A C I Ó N  A R C H  L I N U X .		
 
-════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 
 Basado en: https://www.youtube.com/watch?v=FxeriGuJKTM&t=1348s
 Actualizado para 2025.
@@ -17,8 +17,7 @@ Para más información: https://wiki.archlinux.org/title/Main_page
 	
 - Para mi compa el pulpo aka el naash.
 
-									════════════════════════════════════
-
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 
 NOTAS: En esta instalación NO se habla de particiones como tal. Con esta configuración se elimina completamente la información en el disco personal. Recomiendo limpiarlo y asegurar lo escencial antes de iniciar.
 
@@ -32,7 +31,8 @@ Requisitos:
 		
 	- Conexión Ethernet.
 	- Computadora (._.)
-	
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 	
 ETAPA I. Iniciar arch.
 
@@ -43,6 +43,7 @@ ETAPA I. Iniciar arch.
 5- Abrir imagen .iso de arch.
 6- Esperar Inicialización.
 
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 
 ETAPA II. prenstalación.
 
@@ -122,6 +123,8 @@ ETAPA II. prenstalación.
 
 	- ENTER en "Yes".
 
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
 ETAPA III. Intalación.
 
 1- ENTER en "Install".
@@ -130,6 +133,8 @@ ETAPA III. Intalación.
 4- ENTER en "Reboot system".
 5- Esperar reboot.
 4- Remover USB.
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 
 								A N T E S  D E  I N I C I A R  S E S I Ó N .
 									════════════════════════════════════
