@@ -1,0 +1,118 @@
+I N S T A L A C I Ó N  A R C H  L I N U X .
+
+Basado en: https://www.youtube.com/watch?v=FxeriGuJKTM&t=1348s
+Para más información: https://wiki.archlinux.org/title/Main_page
+	
+- Para mi compa el pulpo aka el naash.
+
+NOTAS: En esta instalación NO se habla de particiones como tal. Con esta configuración se elimina completamente la información en el disco personal. Recomiendo limpiarlo y asegurar lo escencial antes de iniciar.
+
+Requisitos:
+
+	- Imágen ISO de arch: https://archlinux.org/download/
+	- Memoria USB ( Recomendación: De preferecencia con Ventoy): 
+		
+		- Ventoy: https://www.ventoy.net/en/index.html
+		- Instalación: https://www.youtube.com/watch?v=1XO1BAS1Vus
+		
+	- Conexión Ethernet.
+	- Computadora (._.)
+	
+	
+ETAPA I. Iniciar arch.
+
+1- Apagar computadora.
+2- Conectar USB.
+3- Encender computadora.
+4- Entar a Ventoy.
+5- Abrir imagen .iso de arch.
+6- Esperar Inicialización.
+
+
+ETAPA II. prenstalación.
+
+0- Al recibir prompt para imput introducir "archinstall".
+1- Archinstall language: Haré referencias en inglés, así que es mejor dejarlo así. Solo es para el proceso de instalación, no permanente.
+2- Locales: Editar. Se puede buscar opciones en listas largas con "/". Después volver al menú inicial.
+		
+	- Keyboard layout: es
+	- Locale language: es_MX.UTF-8
+	- Locale encoding: UTF-8
+
+3- Mirrors and repositories: Los de México son una caca, escoge "United States" casi al final de la lista. Luego vuelve al menú inicial.
+4- Disk configuration: 
+	
+	- ENTER en "Partitioning". 
+	- ENTER en "Use a best-effort default partition layout". 
+	
+	* Una vez dentro, seleccionar el disco donde que se formateará COMPLETAMENTE para instalar arch. *
+	
+	- ENTER en "ext4".
+	- ENTER  en "Yes" referente a "/home".
+	
+5- Swap: 
+	
+	- ENTER en "Yes".
+
+6- Bootloader: Dejar en "Systemd-boot".
+7- Unifiead Kernel images: Dejar en "Disabled".
+8- Hostname: Nombre personalizado.
+9- Authentification:
+
+	- Root password: Contraseña personalizada.
+	- User account:
+	
+		- Nombre de usuario personal. 
+		- Contraseña de usuario personal. 
+		- Presionar ENTER en "Yes" referente a "(sudo)". 
+		- ENTER en "Confirm and exit".
+		
+	- U2F login setup: No mover.
+
+10- Profile:
+
+	- Type:
+		- ENTER en "Desktop".
+		- TAB en los entornos que se deseen descargar.
+		- TAB en "GNOME" para un entorno gráfico completo y simple y TAB en "Hyprland" para la distribución de ventanas.
+		- ENTER después del último TAB.
+		
+	- Graphics driver: Seleccionar el mejor dependiendo tu tarjeta gráfica. Si se desconoce, dejar en  "All open-source"-
+	- Greeter: Recomiendo, si se usará más hyprland "sddm"; si se utilizará más "GNOME" seleccionar "gdm".
+
+11- Applications:
+	
+	- Bluetooth: Si se usará, seleccionar "Enable".
+	- Audio: ENTER en "pipewire"
+	
+12- Kernels:
+
+	- Dejar default "linux".
+	- TAB en "linux-lts".
+	- ENTER en después del último TAB.
+
+13- Network configuration:
+
+	- ENTER en "Use NetworkManager" si se seleccionó "GNOME" en las opciones de entorno gráfico. Si no "Manual configuration" (más complicado).
+
+14- Additional packages:
+
+	- Después de la instalación se puede instalar lo que se guste. Ignorar.
+
+15- Timezone:
+
+	- Se puede cambiar después, pero "America/Mexico_City" es suficiente.
+
+16- Automatic time sync (NTP):
+
+	- ENTER en "Yes".
+
+ETAPA III. Intalación.
+
+1- ENTER en "Insstall".
+2- ENTER en "Yes".
+3- Esperar a que se termine la instalación.
+
+4- ENTER en "Yes".
+	
+4- Remover USB.
