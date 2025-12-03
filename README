@@ -142,19 +142,10 @@ ETAPA III. Intalación.
 
 ═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 
-Selecionar en esquina superior izquierda el entorno que se desee iniciar.
+Selecionar en esquina superior izquierda (si se escogió sddm, si no en la esquina inferior derecha en gdm) el entorno que se desee iniciar.
 
 GNOME: Entorno gráfico "común".
 Hyprland: Entorno configurable.
-
-Recomiendo entrar a "GNOME" para configurar el sistema mejor.
-
-	- Hora.
-	- Fecha.
-	- Conexión Wifi.
-	- Teclado.
-
-Debería ser accesible desde hyprland, pero usualmente la configuración automática tiene errores.
 
 ═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 
