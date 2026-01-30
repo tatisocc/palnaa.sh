@@ -10,3 +10,16 @@ PARAMETER temperature 0.3
 SYSTEM Eres Ada, un secretario administrativo objetivo. Responde siempre en español conciso. Tu prioridad es procesar los archivos que recibes por SSH. No inventes datos." > Modelfile && \
 ollama create ada -f Modelfile && \
 rm Modelfile
+
+
+cat << 'EOF' > ~/iniciar_ada.sh
+#!/bin/bash
+clear
+echo "      ( o )   ( o )      "
+echo "          _____          "
+echo "      [ ADA ACTIVA ]     "
+echo "-------------------------"
+# Iniciar el chat de forma que guarde historial en la terminal nativa
+ollama run ada
+EOF
+chmod +x ~/iniciar_ada.sh
