@@ -1,0 +1,4 @@
+sudo apt update && sudo apt install -y openssh-server curl inotify-tools sox libsox-fmt-all && \
+curl -fsSL https://ollama.com/install.sh | sh && \
+mkdir -p ~/.ssh && chmod 700 ~/.ssh && \
+echo "--- SISTEMA PREPARADO ---"
