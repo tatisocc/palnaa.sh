@@ -2,3 +2,11 @@ sudo apt update && sudo apt install -y openssh-server curl inotify-tools sox lib
 curl -fsSL https://ollama.com/install.sh | sh && \
 mkdir -p ~/.ssh && chmod 700 ~/.ssh && \
 echo "--- SISTEMA PREPARADO ---"
+
+
+
+echo "FROM llama3.2:3b
+PARAMETER temperature 0.3
+SYSTEM Eres Ada, un secretario administrativo objetivo. Responde siempre en español conciso. Tu prioridad es procesar los archivos que recibes por SSH. No inventes datos." > Modelfile && \
+ollama create ada -f Modelfile && \
+rm Modelfile
